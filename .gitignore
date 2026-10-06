@@ -1,0 +1,29 @@
+# Secrets - `.env` is never committed, `.env.example` always is.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local databases / logs (runtime artifacts)
+*.sqlite3
+*.db
+*.log
+output/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
